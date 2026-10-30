@@ -2,22 +2,238 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Twoble</title>
-<style>
-  :root { color-scheme: light dark; --bg: #f6f7fb; --fg: #10172c; --red: #e8364f; --cyan: #1f8fe0; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #0b1733; --fg: #eef3ff; --red: #ff4d6d; --cyan: #38c6ff; } }
-  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, system-ui, sans-serif; }
-  main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
-  h1 { font-size: 40px; margin: 0; } h1 span:first-child { color: var(--red); } h1 span:last-child { color: var(--cyan); }
-  a { color: inherit; }
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Twoble : jeux à 2 joueurs sur un seul téléphone, face à face</title>
+<meta name="description" content="Ton téléphone devient une table de jeu : air hockey et Volte-Face, à deux face à face ou contre l'IA. Gratuit, sans pub, sans compte, hors ligne.">
+<link rel="canonical" href="https://me.bseb.it/twoble/">
+<link rel="alternate" hreflang="fr" href="https://me.bseb.it/twoble/">
+<link rel="alternate" hreflang="en" href="https://me.bseb.it/twoble/en/">
+<link rel="alternate" hreflang="x-default" href="https://me.bseb.it/twoble/en/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#f7f5fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#090c1a" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<meta name="apple-itunes-app" content="app-id=6828599340">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Twoble">
+<meta property="og:title" content="Twoble : jeux à 2 joueurs sur un seul téléphone, face à face">
+<meta property="og:description" content="Ton téléphone devient une table de jeu : air hockey et Volte-Face, à deux face à face ou contre l'IA. Gratuit, sans pub, sans compte, hors ligne.">
+<meta property="og:url" content="https://me.bseb.it/twoble/">
+<meta property="og:image" content="https://me.bseb.it/twoble/assets/img/og-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Twoble : jeux à deux, face à face, sur un seul téléphone">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+<link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/nunito-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/site.css?v=2026-10-30">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://me.bseb.it/twoble/#website","name":"Twoble","url":"https://me.bseb.it/twoble/","inLanguage":["fr","en"]},{"@type":"WebPage","@id":"https://me.bseb.it/twoble/#webpage","url":"https://me.bseb.it/twoble/","name":"Twoble : jeux à 2 joueurs sur un seul téléphone, face à face","description":"Ton téléphone devient une table de jeu : air hockey et Volte-Face, à deux face à face ou contre l'IA. Gratuit, sans pub, sans compte, hors ligne.","inLanguage":"fr","isPartOf":{"@id":"https://me.bseb.it/twoble/#website"},"primaryImageOfPage":"https://me.bseb.it/twoble/assets/img/og-fr.jpg","dateModified":"2026-10-30"},{"@type":"MobileApplication","@id":"https://me.bseb.it/twoble/#app","name":"Twoble","alternateName":"Twoble : Je te plie","description":"Ton téléphone devient une table de jeu : air hockey et Volte-Face, à deux face à face ou contre l'IA. Gratuit, sans pub, sans compte, hors ligne.","url":"https://me.bseb.it/twoble/","image":"https://me.bseb.it/twoble/assets/img/og-fr.jpg","screenshot":["https://me.bseb.it/twoble/assets/img/fr-store-01-table-640.webp","https://me.bseb.it/twoble/assets/img/fr-store-02-deux-jeux-640.webp","https://me.bseb.it/twoble/assets/img/fr-store-03-volte-face-640.webp","https://me.bseb.it/twoble/assets/img/fr-store-04-regles-640.webp"],"applicationCategory":"GameApplication","applicationSubCategory":"Jeux de société, jeux à deux","operatingSystem":"iOS 15+, iPadOS 15+, Android 7+","inLanguage":["fr","en","es","pt-BR","de","it","nl","pl","tr","ja","ko","zh-Hans","zh-Hant"],"contentRating":"4+","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Twoble est-il gratuit ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Twoble est gratuit et sans publicité. Aucun compte n'est demandé."}},{"@type":"Question","name":"Faut-il une connexion internet ?","acceptedAnswer":{"@type":"Answer","text":"Non. Les deux jeux fonctionnent entièrement hors ligne : dans le train, en avion, en vacances ou au fond du jardin."}},{"@type":"Question","name":"Peut-on jouer seul ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Air Hockey et Volte-Face se jouent aussi contre l'IA, avec trois niveaux : facile, moyenne et difficile."}},{"@type":"Question","name":"Sur quels appareils fonctionne Twoble ?","acceptedAnswer":{"@type":"Answer","text":"Sur iPhone et iPad (iOS 15 ou plus récent) et sur Android (Android 7 ou plus récent). L'app est optimisée pour l'iPhone Duo et les téléphones pliables."}},{"@type":"Question","name":"Est-ce adapté aux enfants ?","acceptedAnswer":{"@type":"Answer","text":"Oui. L'app est classée 4+, sans pub et sans collecte de données. Les règles sont expliquées simplement avant chaque partie, et les coups possibles s'affichent dans Volte-Face."}},{"@type":"Question","name":"Dans quelles langues ?","acceptedAnswer":{"@type":"Answer","text":"En 13 langues : français, anglais, espagnol, portugais (Brésil), allemand, italien, néerlandais, polonais, turc, japonais, coréen, chinois simplifié et chinois traditionnel. L'app suit la langue du téléphone."}}]}]}</script>
 </head>
 <body>
-<main>
-  <h1><span>Two</span><span>ble</span></h1>
-  <p>Je te plie ! Des mini-jeux à deux, face à face, sur un seul téléphone.</p>
-  <p><a href="support.html">Aide</a> · <a href="privacy.html">Confidentialité</a></p>
+<a class="skip" href="#main">Aller au contenu</a>
+<div class="lang-hint" id="lang-hint" lang="en"><div class="wrap"><a href="en/" hreflang="en">This page is also available in English →</a><button type="button" aria-label="Fermer">×</button></div></div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="./" aria-label="Accueil Twoble"><img src="assets/img/icon-96.webp" width="34" height="34" alt=""><span class="wordmark"><span>Two</span><span>ble</span></span></a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="air-hockey.html">Air Hockey</a>
+      <a href="volte-face.html">Volte-Face</a>
+      <a class="hide-sm" href="support.html">Aide</a>
+      <a class="lang" href="en/" hreflang="en" lang="en" title="English">EN</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Mini-jeux à deux · iPhone, iPad, Android</span>
+      <h1>Des jeux à deux, <em>face à face</em>, sur un seul téléphone</h1>
+      <p class="lead">Pose ton téléphone à plat entre vous deux : il devient une table de jeu. Chacun son côté de l'écran, chacun ses scores à l'endroit, et c'est parti.</p>
+      <div class="stores"><span class="store soon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg><span><small>Bientôt sur</small><strong>App Store</strong></span></span><span class="store soon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3.5v17l14-8.5z"/></svg><span><small>Bientôt sur</small><strong>Google Play</strong></span></span></div><p class="store-note">Twoble arrive très bientôt. L'app est gratuite.</p>
+      <ul class="chips" aria-label="En bref">
+        <li>Gratuit</li><li>Sans pub</li><li>Sans compte</li><li>Hors ligne</li><li>13 langues</li>
+      </ul>
+    </div>
+    <div class="devices">
+      <div class="duo"><img src="assets/img/fr-duo-02-air-hockey-560.webp" srcset="assets/img/fr-duo-02-air-hockey-560.webp 560w, assets/img/fr-duo-02-air-hockey-1120.webp 1120w" sizes="(max-width: 900px) 78vw, 400px" width="560" height="796" alt="Partie d'air hockey sur un iPhone Duo déplié : le maillet rouge en bas, le bleu en haut, la pliure au milieu de la table" fetchpriority="high" decoding="async"></div>
+      <div class="phone "><img src="assets/img/fr-vf-play-dark-360.webp" srcset="assets/img/fr-vf-play-dark-360.webp 360w, assets/img/fr-vf-play-dark-720.webp 720w" sizes="190px" width="360" height="780" alt="Partie de Volte-Face en cours sur un téléphone : pions rouges et bleus sur un plateau de 8 × 8 cases" fetchpriority="high" decoding="async"></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="comment-jouer">
+  <div class="wrap center">
+    <span class="eyebrow">Comment ça marche</span>
+    <h2>Un téléphone, deux joueurs</h2>
+    <p class="lead">Pas besoin de deux appareils, ni de wifi, ni de compte. Juste quelqu'un en face de toi.</p>
+    <ol class="steps" style="text-align:left">
+      <li><h3>Pose le téléphone à plat</h3><p>Entre vous deux, sur la table, comme un petit plateau de jeu.</p></li>
+      <li><h3>Chacun son camp</h3><p>Chaque joueur a sa moitié d'écran. Les textes et les scores se tournent vers lui : personne ne lit à l'envers.</p></li>
+      <li><h3>Joue, puis revanche</h3><p>Les règles sont expliquées avant chaque partie. Un match, une revanche, et on recommence.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="jeux">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">Les jeux</span>
+      <h2>Deux jeux pour s'affronter</h2>
+      <p class="lead">Un jeu d'adresse rapide et un jeu de réflexion. À deux face à face, ou seul contre l'IA.</p>
+    </div>
+    <div class="games">
+      <article class="game red">
+        <div class="phone "><img src="assets/img/ah-neon-360.webp" srcset="assets/img/ah-neon-360.webp 360w, assets/img/ah-neon-720.webp 720w" sizes="170px" width="360" height="780" alt="Table d'air hockey au décor Néon, en pleine partie" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>Air Hockey</h3>
+          <p class="tag">Jeu d'adresse · 1 ou 2 joueurs</p>
+          <ul>
+            <li>Pousse le palet, défends ton but : le premier à 7 buts gagne.</li>
+            <li>Les vraies règles : engagement, faute des 7 secondes.</li>
+            <li>1 manche ou au meilleur de 3, 5 ou 7.</li>
+            <li>7 décors de table, 5 ambiances sonores.</li>
+          </ul>
+          <a class="more" href="air-hockey.html">Règles et décors de l'Air Hockey</a>
+        </div>
+      </article>
+      <article class="game blue">
+        <div class="phone "><img src="assets/img/fr-vf-play-dark-360.webp" srcset="assets/img/fr-vf-play-dark-360.webp 360w, assets/img/fr-vf-play-dark-720.webp 720w" sizes="170px" width="360" height="780" alt="Plateau de Volte-Face en milieu de partie" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>Volte-Face</h3>
+          <p class="tag">Jeu de réflexion · 1 ou 2 joueurs</p>
+          <ul>
+            <li>Encadre les pions de l'autre couleur : ils se retournent et changent de camp.</li>
+            <li>Plateau de 8 × 8 cases, le plus de pions gagne.</li>
+            <li>Les coups possibles s'affichent : on apprend en jouant.</li>
+            <li>4 ambiances : salon jazz, jardin zen…</li>
+          </ul>
+          <a class="more" href="volte-face.html">Règles et stratégie de Volte-Face</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="iphone-duo">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Écran pliable</span>
+      <h2>Pensé pour l'iPhone Duo</h2>
+      <p class="lead">Déplié et posé à plat, l'iPhone Duo devient une vraie petite table : la pliure tombe pile sur la ligne du milieu, et chacun a son panneau.</p>
+      <ul class="checks">
+        <li><b>Grand écran intérieur :</b> plus de place pour jouer, la table et le plateau occupent tout l'écran.</li>
+        <li><b>La pliure au centre :</b> elle sépare les deux camps, comme le filet d'une table.</li>
+        <li><b>Écran extérieur :</b> fermé, l'app s'adapte aussi au petit écran.</li>
+        <li><b>Pause automatique :</b> quand tu plies, déplies ou tournes le téléphone, la partie attend que chacun se replace.</li>
+      </ul>
+      <p class="muted" style="margin-top:18px">Pas d'iPhone Duo ? Sur tous les autres iPhone, sur iPad et sur Android, pose simplement l'appareil entre vous.</p>
+    </div>
+    <div class="pair" style="align-items:center">
+      <div class="duo"><img src="assets/img/fr-duo-03-volte-face-560.webp" srcset="assets/img/fr-duo-03-volte-face-560.webp 560w, assets/img/fr-duo-03-volte-face-1120.webp 1120w" sizes="(max-width: 900px) 70vw, 400px" width="560" height="796" alt="Volte-Face sur l'écran intérieur de l'iPhone Duo : un panneau par joueur" loading="lazy" decoding="async"></div>
+    </div>
+  </div>
+</section>
+
+<section id="captures">
+  <div class="wrap center">
+    <span class="eyebrow">En images</span>
+    <h2>Twoble en captures d'écran</h2>
+  </div>
+  <div class="gallery" tabindex="0" aria-label="Captures d'écran de Twoble">
+    <figure><img src="assets/img/fr-store-01-table-320.webp" srcset="assets/img/fr-store-01-table-320.webp 320w, assets/img/fr-store-01-table-640.webp 640w" sizes="240px" width="320" height="694" alt="Ton téléphone devient une table de jeu : partie d'air hockey" loading="lazy" decoding="async"></figure>
+    <figure><img src="assets/img/fr-store-02-deux-jeux-320.webp" srcset="assets/img/fr-store-02-deux-jeux-320.webp 320w, assets/img/fr-store-02-deux-jeux-640.webp 640w" sizes="240px" width="320" height="694" alt="Un téléphone, deux joueurs : Air Hockey et Volte-Face" loading="lazy" decoding="async"></figure>
+    <figure><img src="assets/img/fr-store-03-volte-face-320.webp" srcset="assets/img/fr-store-03-volte-face-320.webp 320w, assets/img/fr-store-03-volte-face-640.webp 640w" sizes="240px" width="320" height="694" alt="Retourne les pions : Volte-Face à deux ou contre le téléphone" loading="lazy" decoding="async"></figure>
+    <figure><img src="assets/img/fr-store-04-regles-320.webp" srcset="assets/img/fr-store-04-regles-320.webp 320w, assets/img/fr-store-04-regles-640.webp 640w" sizes="240px" width="320" height="694" alt="Les vraies règles, sans internet, sans pub, sans compte" loading="lazy" decoding="async"></figure>
+    <figure><div class="phone "><img src="assets/img/fr-hub-light-360.webp" srcset="assets/img/fr-hub-light-360.webp 360w, assets/img/fr-hub-light-720.webp 720w" sizes="240px" width="360" height="780" alt="L'accueil de Twoble en mode clair" loading="lazy" decoding="async"></div></figure>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow">L'essentiel</span>
+      <h2>Tout pour jouer, rien qui dérange</h2>
+    </div>
+    <div class="features">
+      <div class="feature"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.9 4.9l14.2 14.2"/><circle cx="12" cy="12" r="9"/></svg></div><h3>Sans pub</h3><p>Rien ne coupe la partie, ni bannière ni vidéo.</p></div>
+      <div class="feature"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12h3l2-5 4 10 3-8 2 3h6"/></svg></div><h3>Hors ligne</h3><p>Train, avion, vacances : pas besoin de réseau.</p></div>
+      <div class="feature"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div><h3>Sans compte</h3><p>Tu ouvres l'app, tu joues. Aucune donnée collectée.</p></div>
+      <div class="feature"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg></div><h3>Seul contre l'IA</h3><p>Dans les deux jeux, en 3 niveaux : facile, moyenne, difficile.</p></div>
+      <div class="feature"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5M9 8h6M9 12h6"/></svg></div><h3>Les vraies règles</h3><p>Expliquées avant chaque partie, même pour les plus jeunes.</p></div>
+      <div class="feature"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18z" fill="currentColor"/></svg></div><h3>Clair ou sombre</h3><p>L'app suit l'apparence du téléphone, ou ton choix.</p></div>
+      <div class="feature"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg></div><h3>Ambiances sonores</h3><p>Une musique au choix par jeu, avec trois volumes : musique, ambiance, effets.</p></div>
+      <div class="feature"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg></div><h3>13 langues</h3><p>L'app parle la langue de ton téléphone.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap narrow">
+    <div class="center">
+      <span class="eyebrow">Questions</span>
+      <h2>Questions fréquentes</h2>
+    </div>
+    <div class="faq"><details><summary>Twoble est-il gratuit ?</summary><div><p>Oui. Twoble est gratuit et sans publicité. Aucun compte n'est demandé.</p></div></details><details><summary>Faut-il une connexion internet ?</summary><div><p>Non. Les deux jeux fonctionnent entièrement hors ligne : dans le train, en avion, en vacances ou au fond du jardin.</p></div></details><details><summary>Peut-on jouer seul ?</summary><div><p>Oui. Air Hockey et Volte-Face se jouent aussi contre l'IA, avec trois niveaux : facile, moyenne et difficile.</p></div></details><details><summary>Sur quels appareils fonctionne Twoble ?</summary><div><p>Sur iPhone et iPad (iOS 15 ou plus récent) et sur Android (Android 7 ou plus récent). L'app est optimisée pour l'iPhone Duo et les téléphones pliables.</p></div></details><details><summary>Est-ce adapté aux enfants ?</summary><div><p>Oui. L'app est classée 4+, sans pub et sans collecte de données. Les règles sont expliquées simplement avant chaque partie, et les coups possibles s'affichent dans Volte-Face.</p></div></details><details><summary>Dans quelles langues ?</summary><div><p>En 13 langues : français, anglais, espagnol, portugais (Brésil), allemand, italien, néerlandais, polonais, turc, japonais, coréen, chinois simplifié et chinois traditionnel. L'app suit la langue du téléphone.</p></div></details></div>
+    <p class="center" style="margin-top:24px"><a class="more" href="support.html">Toute l'aide de Twoble</a></p>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="cta">
+      <h2>Qui gagnera la revanche ?</h2>
+      <p>En famille, entre amis, en couple, à l'apéro ou en voyage : on sort le téléphone et c'est parti.</p>
+      <div class="stores"><span class="store soon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg><span><small>Bientôt sur</small><strong>App Store</strong></span></span><span class="store soon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3.5v17l14-8.5z"/></svg><span><small>Bientôt sur</small><strong>Google Play</strong></span></span></div><p class="store-note">Twoble arrive très bientôt. L'app est gratuite.</p>
+    </div>
+  </div>
+</section>
 </main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="about">
+      <a class="logo" href="./" aria-label="Accueil Twoble"><img src="assets/img/icon-96.webp" width="34" height="34" alt="" loading="lazy"><span class="wordmark"><span>Two</span><span>ble</span></span></a>
+      <p style="margin-top:12px">Un téléphone, deux joueurs, face à face. Des mini-jeux à deux, sans pub, sans compte et sans internet.</p>
+    </div>
+    <div>
+      <h2>Les jeux</h2>
+      <ul>
+        <li><a href="air-hockey.html">Air Hockey</a></li>
+        <li><a href="volte-face.html">Volte-Face</a></li>
+        <li><a href="./#iphone-duo">iPhone Duo</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>L'app</h2>
+      <ul>
+        <li><a href="support.html">Aide · Questions fréquentes</a></li>
+        <li><a href="privacy.html">Confidentialité</a></li>
+        <li><a href="mailto:contact@tendrea.app">contact@tendrea.app</a></li>
+        <li><a href="en/" hreflang="en" lang="en">English</a></li>
+      </ul>
+    </div>
+    <p class="legal">© 2026 Twoble. Air Hockey et Volte-Face sont des jeux originaux de Twoble. iPhone et iPad sont des marques d'Apple Inc., Android et Google Play sont des marques de Google LLC.</p>
+  </div>
+</footer>
+<script>
+(function () {
+  var key = 'twoble-lang-hint', el = document.getElementById('lang-hint');
+  try { if (localStorage.getItem(key)) return; } catch (e) {}
+  var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+  var fr = function (l) { return String(l).toLowerCase().indexOf('fr') === 0; };
+  var show = document.documentElement.lang === 'fr' ? !langs.some(fr) : fr(langs[0]);
+  if (!show) return;
+  el.className += ' show';
+  el.querySelector('button').onclick = function () {
+    el.className = 'lang-hint';
+    try { localStorage.setItem(key, '1'); } catch (e) {}
+  };
+})();
+</script>
 </body>
 </html>

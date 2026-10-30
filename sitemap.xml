@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://me.bseb.it/twoble/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://me.bseb.it/twoble/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://me.bseb.it/twoble/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://me.bseb.it/twoble/en/"/>
+    <image:image><image:loc>https://me.bseb.it/twoble/assets/img/og-fr.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://me.bseb.it/twoble/en/</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://me.bseb.it/twoble/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://me.bseb.it/twoble/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://me.bseb.it/twoble/en/"/>
+    <image:image><image:loc>https://me.bseb.it/twoble/assets/img/og-en.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://me.bseb.it/twoble/air-hockey.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://me.bseb.it/twoble/air-hockey.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://me.bseb.it/twoble/en/air-hockey.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://me.bseb.it/twoble/en/air-hockey.html"/>
+  </url>
+  <url>
+    <loc>https://me.bseb.it/twoble/en/air-hockey.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://me.bseb.it/twoble/air-hockey.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://me.bseb.it/twoble/en/air-hockey.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://me.bseb.it/twoble/en/air-hockey.html"/>
+  </url>
+  <url>
+    <loc>https://me.bseb.it/twoble/volte-face.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://me.bseb.it/twoble/volte-face.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://me.bseb.it/twoble/en/volte-face.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://me.bseb.it/twoble/en/volte-face.html"/>
+  </url>
+  <url>
+    <loc>https://me.bseb.it/twoble/en/volte-face.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://me.bseb.it/twoble/volte-face.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://me.bseb.it/twoble/en/volte-face.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://me.bseb.it/twoble/en/volte-face.html"/>
+  </url>
+  <url>
+    <loc>https://me.bseb.it/twoble/support.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://me.bseb.it/twoble/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://me.bseb.it/twoble/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://me.bseb.it/twoble/en/support.html"/>
+  </url>
+  <url>
+    <loc>https://me.bseb.it/twoble/en/support.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://me.bseb.it/twoble/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://me.bseb.it/twoble/en/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://me.bseb.it/twoble/en/support.html"/>
+  </url>
+  <url>
+    <loc>https://me.bseb.it/twoble/privacy.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://me.bseb.it/twoble/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://me.bseb.it/twoble/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://me.bseb.it/twoble/en/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://me.bseb.it/twoble/en/privacy.html</loc>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://me.bseb.it/twoble/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://me.bseb.it/twoble/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://me.bseb.it/twoble/en/privacy.html"/>
+  </url>
+</urlset>

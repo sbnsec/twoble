@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Volte-Face : règles et stratégie du jeu de pions · Twoble</title>
+<meta name="description" content="Comment jouer à Volte-Face : encadre les pions adverses pour les retourner. Règles, exemple illustré, stratégie et IA en 3 niveaux, à deux ou seul.">
+<link rel="canonical" href="https://me.bseb.it/twoble/volte-face.html">
+<link rel="alternate" hreflang="fr" href="https://me.bseb.it/twoble/volte-face.html">
+<link rel="alternate" hreflang="en" href="https://me.bseb.it/twoble/en/volte-face.html">
+<link rel="alternate" hreflang="x-default" href="https://me.bseb.it/twoble/en/volte-face.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#f7f5fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#090c1a" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<meta name="apple-itunes-app" content="app-id=6828599340">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Twoble">
+<meta property="og:title" content="Volte-Face : règles et stratégie du jeu de pions · Twoble">
+<meta property="og:description" content="Comment jouer à Volte-Face : encadre les pions adverses pour les retourner. Règles, exemple illustré, stratégie et IA en 3 niveaux, à deux ou seul.">
+<meta property="og:url" content="https://me.bseb.it/twoble/volte-face.html">
+<meta property="og:image" content="https://me.bseb.it/twoble/assets/img/og-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Twoble : jeux à deux, face à face, sur un seul téléphone">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+<link rel="icon" type="image/png" sizes="48x48" href="favicon-48.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/nunito-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/site.css?v=2026-10-30">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://me.bseb.it/twoble/#website","name":"Twoble","url":"https://me.bseb.it/twoble/","inLanguage":["fr","en"]},{"@type":"WebPage","@id":"https://me.bseb.it/twoble/volte-face.html#webpage","url":"https://me.bseb.it/twoble/volte-face.html","name":"Volte-Face : règles et stratégie du jeu de pions · Twoble","description":"Comment jouer à Volte-Face : encadre les pions adverses pour les retourner. Règles, exemple illustré, stratégie et IA en 3 niveaux, à deux ou seul.","inLanguage":"fr","isPartOf":{"@id":"https://me.bseb.it/twoble/#website"},"primaryImageOfPage":"https://me.bseb.it/twoble/assets/img/og-fr.jpg","dateModified":"2026-10-30"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://me.bseb.it/twoble/"},{"@type":"ListItem","position":2,"name":"Volte-Face","item":"https://me.bseb.it/twoble/volte-face.html"}]},{"@type":"VideoGame","name":"Volte-Face","description":"Comment jouer à Volte-Face : encadre les pions adverses pour les retourner. Règles, exemple illustré, stratégie et IA en 3 niveaux, à deux ou seul.","url":"https://me.bseb.it/twoble/volte-face.html","inLanguage":"fr","genre":["Jeu de plateau","Stratégie","Réflexion"],"gamePlatform":["iOS","iPadOS","Android"],"playMode":["SinglePlayer","MultiPlayer"],"numberOfPlayers":{"@type":"QuantitativeValue","minValue":1,"maxValue":2},"isPartOf":{"@id":"https://me.bseb.it/twoble/#app"},"image":"https://me.bseb.it/twoble/assets/img/og-fr.jpg"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Comment retourner des pions à Volte-Face ?","acceptedAnswer":{"@type":"Answer","text":"Pose un pion de façon à encadrer une ligne de pions adverses, horizontale, verticale ou diagonale, entre ce pion et un autre pion à toi. Tous les pions encadrés se retournent et prennent ta couleur."}},{"@type":"Question","name":"Que se passe-t-il si je ne peux pas jouer ?","acceptedAnswer":{"@type":"Answer","text":"Si tu n'as aucun coup possible, tu passes ton tour automatiquement et l'adversaire rejoue. La partie s'arrête quand plus personne ne peut jouer."}},{"@type":"Question","name":"Qui gagne à Volte-Face ?","acceptedAnswer":{"@type":"Answer","text":"Le joueur qui a le plus de pions de sa couleur sur le plateau à la fin de la partie. L'égalité est possible."}},{"@type":"Question","name":"Qui commence ?","acceptedAnswer":{"@type":"Answer","text":"Rouge commence la première partie, puis on alterne d'une partie à l'autre."}}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+<div class="lang-hint" id="lang-hint" lang="en"><div class="wrap"><a href="en/volte-face.html" hreflang="en">This page is also available in English →</a><button type="button" aria-label="Fermer">×</button></div></div>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="./" aria-label="Accueil Twoble"><img src="assets/img/icon-96.webp" width="34" height="34" alt=""><span class="wordmark"><span>Two</span><span>ble</span></span></a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="air-hockey.html">Air Hockey</a>
+      <a href="volte-face.html" aria-current="page">Volte-Face</a>
+      <a class="hide-sm" href="support.html">Aide</a>
+      <a class="lang" href="en/volte-face.html" hreflang="en" lang="en" title="English">EN</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <nav class="crumbs" aria-label="Fil d'Ariane"><ol><li><a href="./">Accueil</a></li><li><span aria-current="page">Volte-Face</span></li></ol></nav>
+      <span class="eyebrow">Jeu de réflexion · 1 ou 2 joueurs</span>
+      <h1>Volte-Face, le jeu de pions à retourner</h1>
+      <p class="lead">Le grand classique de stratégie aux pions bicolores. Encadre les pions de l'autre couleur : ils se retournent et passent dans ton camp. Une règle qui s'apprend en une minute, des parties qui se jouent jusqu'au dernier pion.</p>
+      <ul class="chips" aria-label="En bref">
+        <li>1 ou 2 joueurs</li><li>Plateau 8 × 8</li><li>IA en 3 niveaux</li><li>Coups possibles affichés</li>
+      </ul>
+      <div class="stores"><span class="store soon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg><span><small>Bientôt sur</small><strong>App Store</strong></span></span><span class="store soon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3.5v17l14-8.5z"/></svg><span><small>Bientôt sur</small><strong>Google Play</strong></span></span></div><p class="store-note">Twoble arrive très bientôt. L'app est gratuite.</p>
+    </div>
+    <div class="pair">
+      <div class="phone "><img src="assets/img/fr-vf-play-dark-360.webp" srcset="assets/img/fr-vf-play-dark-360.webp 360w, assets/img/fr-vf-play-dark-720.webp 720w" sizes="(max-width: 600px) 45vw, 250px" width="360" height="780" alt="Partie de Volte-Face en mode sombre : Bleu a 10 pions, Rouge 9, les petits points montrent les coups possibles" fetchpriority="high" decoding="async"></div>
+      <div class="phone "><img src="assets/img/fr-vf-lobby-360.webp" srcset="assets/img/fr-vf-lobby-360.webp 360w, assets/img/fr-vf-lobby-720.webp 720w" sizes="(max-width: 600px) 45vw, 250px" width="360" height="780" alt="La fiche de Volte-Face : choix de l'adversaire et affichage des coups possibles" fetchpriority="high" decoding="async"></div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap narrow">
+    <span class="eyebrow">Les règles</span>
+    <h2>Comment jouer à Volte-Face</h2>
+    <p class="lead">Le but : avoir le plus de pions de ta couleur quand plus personne ne peut jouer.</p>
+    <ol class="rules">
+      <li>Plateau de <b>8 × 8</b> cases. Au départ, 4 pions sont posés en croix au centre : 2 rouges et 2 bleus.</li>
+      <li><b>Rouge</b> commence la première partie, puis on alterne d'une partie à l'autre.</li>
+      <li>À ton tour, pose un pion de façon à <b>encadrer</b> une ligne de pions adverses (horizontale, verticale ou diagonale) entre ce pion et un autre pion à toi.</li>
+      <li>Tous les pions encadrés se <b>retournent</b> et prennent ta couleur. Un seul coup peut retourner plusieurs lignes à la fois.</li>
+      <li>Un coup qui ne retourne aucun pion est interdit. Si tu n'as aucun coup possible, tu <b>passes ton tour</b> (c'est automatique).</li>
+      <li>La partie s'arrête quand plus personne ne peut jouer. Le <b>plus de pions</b> gagne.</li>
+    </ol>
+
+    <div class="diagram" role="img" aria-label="Exemple : Rouge pose un pion à droite de trois pions bleus alignés derrière un pion rouge. Les trois pions bleus, encadrés, deviennent rouges.">
+      <svg viewBox="0 0 520 250" aria-hidden="true">
+        <text class="label" x="0" y="66">Avant</text>
+        <rect class="cell" x="90" y="30" width="64" height="64" rx="12"/><rect class="cell" x="160" y="30" width="64" height="64" rx="12"/><rect class="cell" x="230" y="30" width="64" height="64" rx="12"/><rect class="cell" x="300" y="30" width="64" height="64" rx="12"/><rect class="cell" x="370" y="30" width="64" height="64" rx="12"/><rect class="cell" x="440" y="30" width="64" height="64" rx="12"/>
+        <circle class="r" cx="122" cy="62" r="23"/><circle class="b" cx="192" cy="62" r="23"/><circle class="b" cx="262" cy="62" r="23"/><circle class="b" cx="332" cy="62" r="23"/>
+        <circle class="ghost" cx="402" cy="62" r="23"/>
+        <text class="label" x="372" y="20">Rouge joue ici</text>
+        <path class="arrow" d="M480 70 C 505 100, 505 150, 480 180" /><path class="arrow" d="M472 170 L480 182 L490 172"/>
+        <text class="label" x="0" y="196">Après</text>
+        <rect class="cell" x="90" y="160" width="64" height="64" rx="12"/><rect class="cell" x="160" y="160" width="64" height="64" rx="12"/><rect class="cell" x="230" y="160" width="64" height="64" rx="12"/><rect class="cell" x="300" y="160" width="64" height="64" rx="12"/><rect class="cell" x="370" y="160" width="64" height="64" rx="12"/><rect class="cell" x="440" y="160" width="64" height="64" rx="12"/>
+        <circle class="r" cx="122" cy="192" r="23"/><circle class="r" cx="192" cy="192" r="23"/><circle class="r" cx="262" cy="192" r="23"/><circle class="r" cx="332" cy="192" r="23"/><circle class="r" cx="402" cy="192" r="23"/>
+        <rect class="frame" x="86" y="156" width="352" height="72" rx="16"/>
+      </svg>
+      <p class="center muted" style="margin:16px 0 0;font-size:15px">Les trois pions bleus sont pris entre deux pions rouges : ils se retournent et deviennent rouges.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow">Sur l'écran</span>
+      <h2>Jouer du bout du doigt</h2>
+      <ul class="checks">
+        <li><b>Touche une case et relâche</b> pour poser ton pion.</li>
+        <li><b>Garde le doigt appuyé</b> : tu vois quels pions vont se retourner avant de jouer.</li>
+        <li><b>Glisse hors de la case</b> pour annuler.</li>
+        <li>Les <b>petits points</b> montrent les coups possibles. Pour plus de défi, masque-les dans les options.</li>
+        <li>Le score de chaque joueur est tourné vers lui : à deux, chacun lit dans le bon sens.</li>
+      </ul>
+    </div>
+    <figure class="pair">
+      <div class="phone "><img src="assets/img/fr-vf-play-light-360.webp" srcset="assets/img/fr-vf-play-light-360.webp 360w, assets/img/fr-vf-play-light-720.webp 720w" sizes="(max-width: 600px) 45vw, 250px" width="360" height="780" alt="Volte-Face en mode clair" loading="lazy" decoding="async"></div>
+      <div class="phone "><img src="assets/img/fr-vf-rules-360.webp" srcset="assets/img/fr-vf-rules-360.webp 360w, assets/img/fr-vf-rules-720.webp 720w" sizes="(max-width: 600px) 45vw, 250px" width="360" height="780" alt="Les règles de Volte-Face affichées sur la fiche du jeu" loading="lazy" decoding="async"></div>
+    </figure>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap">
+    <span class="eyebrow">Stratégie</span>
+    <h2>6 conseils pour gagner à Volte-Face</h2>
+    <p class="lead">Retourner beaucoup de pions tout de suite n'est pas toujours une bonne idée. Voici ce que font les bons joueurs.</p>
+    <div class="tips">
+      <div class="tip"><h3>1. Prends les coins</h3><p>Un pion posé dans un coin ne peut plus jamais être retourné. C'est la case la plus précieuse du plateau.</p></div>
+      <div class="tip"><h3>2. Méfie-toi des cases voisines des coins</h3><p>Y jouer trop tôt ouvre souvent le coin à l'adversaire. Attends que le coin soit pris ou sans danger.</p></div>
+      <div class="tip"><h3>3. Les bords sont solides</h3><p>Un pion sur un bord ne peut être retourné que le long de ce bord. Il est plus dur à reprendre qu'un pion du centre.</p></div>
+      <div class="tip"><h3>4. Garde peu de pions au début</h3><p>En début de partie, moins tu as de pions, moins l'adversaire a de coups possibles. Laisse-le se coincer.</p></div>
+      <div class="tip"><h3>5. Compte les coups possibles</h3><p>Celui qui n'a plus de coup passe son tour, et l'autre rejoue. Prive ton adversaire de bonnes cases.</p></div>
+      <div class="tip"><h3>6. Tout se joue à la fin</h3><p>Seuls les pions de la dernière position comptent. Une partie peut basculer dans les derniers coups.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="options">
+      <div class="option">
+        <h3>Seul contre l'IA : 3 niveaux</h3>
+        <dl>
+          <dt>Facile</dt><dd>Elle joue sans plan, parfait pour apprendre.</dd>
+          <dt>Moyenne</dt><dd>Elle anticipe ta réponse, mais se trompe parfois.</dd>
+          <dt>Difficile</dt><dd>Elle calcule plusieurs coups à l'avance et joue la fin de partie jusqu'au dernier pion.</dd>
+        </dl>
+      </div>
+      <div class="option">
+        <h3>4 ambiances sonores</h3>
+        <dl>
+          <dt>Salon</dt><dd>Trio jazz feutré et murmure du café.</dd>
+          <dt>Jardin zen</dt><dd>Koto et fontaine en bambou.</dd>
+          <dt>Fontaine seule</dt><dd>Sans musique, juste l'eau qui coule.</dd>
+          <dt>Silence</dt><dd>Seulement le bruit des pions.</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap narrow">
+    <h2 class="center">Questions sur Volte-Face</h2>
+    <div class="faq"><details><summary>Comment retourner des pions à Volte-Face ?</summary><div><p>Pose un pion de façon à encadrer une ligne de pions adverses, horizontale, verticale ou diagonale, entre ce pion et un autre pion à toi. Tous les pions encadrés se retournent et prennent ta couleur.</p></div></details><details><summary>Que se passe-t-il si je ne peux pas jouer ?</summary><div><p>Si tu n'as aucun coup possible, tu passes ton tour automatiquement et l'adversaire rejoue. La partie s'arrête quand plus personne ne peut jouer.</p></div></details><details><summary>Qui gagne à Volte-Face ?</summary><div><p>Le joueur qui a le plus de pions de sa couleur sur le plateau à la fin de la partie. L'égalité est possible.</p></div></details><details><summary>Qui commence ?</summary><div><p>Rouge commence la première partie, puis on alterne d'une partie à l'autre.</p></div></details></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="cta">
+      <h2>Besoin d'action ?</h2>
+      <p>Passe à l'Air Hockey : un palet, deux maillets, et le premier à 7 buts gagne.</p>
+      <p style="margin-top:20px"><a class="btn" href="air-hockey.html">Découvrir l'Air Hockey →</a></p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="about">
+      <a class="logo" href="./" aria-label="Accueil Twoble"><img src="assets/img/icon-96.webp" width="34" height="34" alt="" loading="lazy"><span class="wordmark"><span>Two</span><span>ble</span></span></a>
+      <p style="margin-top:12px">Un téléphone, deux joueurs, face à face. Des mini-jeux à deux, sans pub, sans compte et sans internet.</p>
+    </div>
+    <div>
+      <h2>Les jeux</h2>
+      <ul>
+        <li><a href="air-hockey.html">Air Hockey</a></li>
+        <li><a href="volte-face.html">Volte-Face</a></li>
+        <li><a href="./#iphone-duo">iPhone Duo</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>L'app</h2>
+      <ul>
+        <li><a href="support.html">Aide · Questions fréquentes</a></li>
+        <li><a href="privacy.html">Confidentialité</a></li>
+        <li><a href="mailto:contact@tendrea.app">contact@tendrea.app</a></li>
+        <li><a href="en/volte-face.html" hreflang="en" lang="en">English</a></li>
+      </ul>
+    </div>
+    <p class="legal">© 2026 Twoble. Air Hockey et Volte-Face sont des jeux originaux de Twoble. iPhone et iPad sont des marques d'Apple Inc., Android et Google Play sont des marques de Google LLC.</p>
+  </div>
+</footer>
+<script>
+(function () {
+  var key = 'twoble-lang-hint', el = document.getElementById('lang-hint');
+  try { if (localStorage.getItem(key)) return; } catch (e) {}
+  var langs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+  var fr = function (l) { return String(l).toLowerCase().indexOf('fr') === 0; };
+  var show = document.documentElement.lang === 'fr' ? !langs.some(fr) : fr(langs[0]);
+  if (!show) return;
+  el.className += ' show';
+  el.querySelector('button').onclick = function () {
+    el.className = 'lang-hint';
+    try { localStorage.setItem(key, '1'); } catch (e) {}
+  };
+})();
+</script>
+</body>
+</html>
